@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+#header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 150px;
+}
+#header_logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+
+#header_link{
+    width: 44%;
+    display: flex;
+    justify-content: space-between;
+}
+#header_link a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+#hero{
+    background-color: #1F2937;
+    padding:40px 150px;
+    display: flex;
+
+}
+
+#hero span{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+#hero p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#hero img{
+    border-style: solid;
+    width: 50%;
+    height: 300px;
+}
+
+#hero button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+#information{
+    padding: 0 150px;
+    margin-bottom: 60px;
+}
+
+#information #info_img div{
+    display: grid;
+}
+
+#information #info_img div span{
+    width: 100px;
+}
+
+
+#info_header{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    padding: 20px;
+}
+#info_img{
+    justify-content: space-evenly;
+    display: flex;
+}
+#information img{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+#quote{
+    background-color: #E5E7EB;
+    padding: 70px 150px;
+}
+
+#quote div{
+    font-weight: bolder;
+    text-align: right;
+    font-style: normal;
+}
+text{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+}
+
+div#action {
+    margin: 40px 150px;
+    background-color: #3882F6;
+    padding: 19px 5%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    
+}
+
+#action p.head{
+    font-weight: bold;
+}
+#action button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 6px;
+    height: 30px;
+    width: 90px;
+    align-self: center;
+}
