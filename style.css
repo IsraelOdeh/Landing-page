@@ -42,7 +42,7 @@ body{
     color: #E5E7EB;
 }
 #hero img{
-    border-style: solid;
+    
     width: 50%;
     height: 300px;
 }
@@ -84,7 +84,6 @@ body{
 #information img{
     height: 100px;
     width: 100px;
-    border-style: solid;
     border-radius: 16px;
 }
 
